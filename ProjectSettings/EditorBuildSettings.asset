@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinishScene.unity
     guid: b051647ffa70abd47a5a3ca2919d6f0c
+  - enabled: 1
+    path: Assets/Scenes/SampleScene2.unity
+    guid: 58e492921265cd9498697efaf60dafef
+  - enabled: 1
+    path: Assets/Scenes/FinishScene2.unity
+    guid: d5364d700e7269547bfa415d04fef7fe
+  - enabled: 1
+    path: Assets/Scenes/SampleScene3.unity
+    guid: 2da7dc7e8acd7a5499d9ceee7a0e4f91
+  - enabled: 1
+    path: Assets/Scenes/FinishScene3.unity
+    guid: 08a331b4ab85bcc458aa514550a1cc3e
   m_configObjects: {}

@@ -74,7 +74,7 @@ public class MoveSphere : MonoBehaviour
         rigidbody.velocity = new Vector3(joystick.Horizontal * 10f,
                                         rigidbody.velocity.y,
                                         joystick.Vertical * 10f);
-        input = new Vector3 (Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+        input = new Vector3 (joystick.Horizontal, 0f, joystick.Vertical);
         if(rg.velocity.magnitude < maxSpeed)
         {
             odometer += Vector3.Distance(input, oldPos);
