@@ -9,9 +9,12 @@ public class GameplayManager : MonoBehaviour
 {
     DateTime currentTime = DateTime.UtcNow;
     public Text score;
-    private static List<ScoreList> dataScore;
+    public static List<ScoreList> dataScore;
+    public static int timeFixed;
     private string inputData;
+
     //static List<ScoreList> dataScore = new List<ScoreList>();
+    [Obsolete]
     void Start()
     {
         dataScore = new List<ScoreList>();
@@ -42,14 +45,16 @@ public class GameplayManager : MonoBehaviour
             score.text = Play.user_id + " mendapatkan skor " + MoveSphere.lastScore +
             " di level 3, Top Skor di Level 3 adalah " + PlayerPrefs.GetInt("topScore3");
         }
-        StoreData();        
+        dataScore.Add(new ScoreList(Play.user_id, MoveSphere.lastScore, MoveSphere.limit, MoveSphere.shots, MoveSphere.jump, timeFixed, WinBox.level));
+        StoreData();
+        SendtoGoogle send = gameObject.GetComponent<SendtoGoogle>();
+        send.Send();        
         MoveSphere.lastScore = 0;
         MoveSphere.lastScoreEnemy = 0;
     }
 
     public void StoreData()
     {
-        dataScore.Add(new ScoreList(Play.user_id, MoveSphere.lastScore, MoveSphere.limit, MoveSphere.shots, MoveSphere.jump, WinBox.level));
         foreach(ScoreList a in dataScore)
         {
             // Debug.Log(a.nameString + "," + a.scoreInt + "," + a.limit + "," + a.shots + "," + a.jump + "," + a.level);

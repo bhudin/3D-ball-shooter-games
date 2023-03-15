@@ -10,7 +10,7 @@ public class MoveSphere : MonoBehaviour
     protected Joyshoot joyshoot;
     public static int lastScore = 0, lastScoreEnemy = 0;
     public GameObject Sphere;
-    public int playTime = 0, bensin = 3000;
+    public int bensin = 3000, playTime = 0;
     public static int tmphigh, tmp2 = 0, tmp3 = 0, limit, shots, jump;
     public Text timeText, scoreText, shotsText;
     public float odometer = 0f;
@@ -123,7 +123,8 @@ public class MoveSphere : MonoBehaviour
     {
         if(other.gameObject.name == "finishPoint")
         {
-            lastScore = (limit/playTime)+lastScoreEnemy-shots;
+            GameplayManager.timeFixed = playTime;
+            lastScore = (limit/playTime)+lastScoreEnemy-shots-jump;
             PlayerPrefs.SetInt("temp",lastScore);
         }
     }

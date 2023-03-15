@@ -363,6 +363,7 @@
 "Assets/Scripts/Play.cs"
 "Assets/Scripts/PlayerFollow.cs"
 "Assets/Scripts/ScoreList.cs"
+"Assets/Scripts/SendtoGoogle.cs"
 "Assets/Scripts/WinBox.cs"
 "Assets/Scripts/WinBox2.cs"
 "Assets/Scripts/WinBox3.cs"

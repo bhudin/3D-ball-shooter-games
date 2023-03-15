@@ -13,18 +13,17 @@ ScriptsOnlyBuild:
     - Obstacle
     - Play
     - PlayerFollow
+    - SendtoGoogle
     - WinBox
     - WinBox2
     - WinBox3
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
@@ -83,7 +82,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     XiaomiSupport:
     - AppStoresSupport.AppStoreSetting
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: GameplayManager
+    methodName: NextScene
   sceneClasses:
     Assets/Scenes/FinishScene.unity:
     - Class: 1
@@ -122,6 +124,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3146}
     - Class: 114
       Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 19998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,6 +183,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3146}
     - Class: 114
       Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 19998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -221,13 +227,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1522}
+    - Class: 114
       Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1526}
     - Class: 114
       Script: {instanceID: 2520}
     - Class: 114
+      Script: {instanceID: 2632}
+    - Class: 114
       Script: {instanceID: 2832}
     - Class: 114
+      Script: {instanceID: 3146}
+    - Class: 114
       Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 19998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,6 +251,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -731,7 +749,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 4cf7209802c0ca6c9da889c643c11086
+      Hash: 01d189a0234663a2ee1293cfc5da40f7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoveSphere
@@ -1365,6 +1383,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 6bbfff0edf1d42e111d0062192ce257d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendtoGoogle
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartScene.unity
