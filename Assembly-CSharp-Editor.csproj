@@ -298,6 +298,15 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.xiaomi@1.0.3\ChannelPurchase.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -306,24 +315,6 @@
     </Reference>
     <Reference Include="UnityStore">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.xiaomi@1.0.3\UnityStore.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ChannelPurchase">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.xiaomi@1.0.3\ChannelPurchase.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -718,17 +709,17 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Purchasing.Common">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+    <Reference Include="XiaomiSupport">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\XiaomiSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Editor.dll</HintPath>
@@ -736,29 +727,20 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Core.Environments">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Analytics.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing.SecurityStub">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Analytics">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -766,62 +748,11 @@
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Analytics">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="XiaomiSupport">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\XiaomiSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing.SecurityCore">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing.Codeless">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing.Stores">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Monetization">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-        <HintPath>D:\Unity\3D-ball-shooter-games\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
